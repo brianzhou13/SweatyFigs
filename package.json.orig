@@ -1,0 +1,43 @@
+{
+  "name": "sweatyfigs",
+  "version": "0.0.1",
+  "description": "The sweatiest of the figs stuff.",
+  "main": "server/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt start",
+    "lint": "grunt eslint",
+    "post-install": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweatyFigs/SweatyFigs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SweatyFigs/SweatyFigs/issues"
+  },
+  "homepage": "https://github.com/SweatyFigs/SweatyFigs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.4.0",
+    "eslint-config-hackreactor": "github:hackreactor-labs/eslint-config-hackreactor",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-nodemon": "^0.4.2",
+    "mocha": "^3.0.2",
+<<<<<<< 55a94e34bd849f30f57ed7e54de252e0c1d6653e
+    "morgan": "^1.7.0",
+    "request": "^2.74.0"
+=======
+    "unirest": "^0.5.1"
+>>>>>>> added unirest package to work with spoonacular api
+  }
+}
