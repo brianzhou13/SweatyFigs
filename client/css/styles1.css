@@ -12,3 +12,9 @@
 .desc {
 	font-size: 15px;
 }
+
+h1.center-align {
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
