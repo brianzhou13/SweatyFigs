@@ -1,19 +1,15 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-<<<<<<< HEAD
 var routes = require('./routes.js');
 
-=======
 var morgan = require('morgan');
 var request = require('request');
 var config = require('./env/config');
->>>>>>> 1acfff36e62a7f9865d07b6d7316a742fa48b3d0
 
 var app = express();
 
 // middleware
 app.use(bodyParser.json());
-<<<<<<< HEAD
 
 // implement routes
 routes(app, express); // this should run the routes
@@ -47,7 +43,6 @@ addItems(['carrots', 'potatoes', 'rice']);
 **/
 
 
-=======
 app.use(morgan('dev'));
 app.use('/', express.static('../client'));
 
@@ -84,7 +79,6 @@ app.get('/', function (req, res) {
   res.send('Home Page');
 });
 
->>>>>>> 1acfff36e62a7f9865d07b6d7316a742fa48b3d0
 app.listen(8080, function () {
   console.log('App listening on port 8080!');
 });
