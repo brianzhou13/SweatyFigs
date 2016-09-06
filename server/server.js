@@ -10,7 +10,6 @@ var app = express();
 
 // middleware
 app.use(bodyParser.json());
-<<<<<<< 1acfff36e62a7f9865d07b6d7316a742fa48b3d0
 app.use(morgan('dev'));
 app.use('/', express.static('client'));
 
@@ -81,7 +80,6 @@ addItems(['carrots', 'potatoes', 'rice']);
 **/
 
 
->>>>>>> connected server to routes
 app.listen(8080, function () {
   console.log('App listening on port 8080!');
 });
